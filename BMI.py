@@ -5,7 +5,7 @@ def calculate_bmi(weight, height):
 
 # 使用者輸入
 weight = float(input("請輸入您的體重（公斤）："))
-height = float(input("請輸入您的身高（米）："))
+height = float(input("請輸入您的身高（公尺）："))
 
 # 計算BMI
 bmi = calculate_bmi(weight, height)
